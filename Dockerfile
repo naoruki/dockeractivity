@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 #Install flask inside container
-RUN pip install -r requirements.txt
+RUN pip install -r flask.txt
 
 #Expose container port
 EXPOSE 8080
